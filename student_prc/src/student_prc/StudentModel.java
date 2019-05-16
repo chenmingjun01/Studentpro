@@ -1,11 +1,11 @@
 package student_prc;
 
 public class StudentModel {
-	private int id;
-	private String username;
-	private String password;
-	private int sex;
-	private String love;
+	private int id;//唯一ID
+	private String username;//用户名
+	private String password;//密码
+	private int sex;//性别
+	private String love;//？
 	public StudentModel(int id, String username, String password, int sex, String love) {
 		super();
 		this.id = id;
